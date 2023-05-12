@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="Хранилище kokModelContainer" CdmEntityContainer="kokEntities2">
+    <EntitySetMapping Name="lols">
+      <EntityTypeMapping TypeName="kokModel.lol">
+        <MappingFragment StoreEntitySet="lol">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="log" ColumnName="log" />
+          <ScalarProperty Name="pass" ColumnName="pass" />
+          <ScalarProperty Name="role" ColumnName="role" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
